@@ -1,7 +1,7 @@
 class Artistas:
 
-    def __init__(self):
-        self.__nomeartistas = ''
+    def __init__(self, artistas):
+        self.__nomeartistas = artistas
 
 
     def get_nomeartista(self):
